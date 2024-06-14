@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<p id="abc1"></p>
+<p id="abc2"></p>
+<script>
+var arr=["ROM","RAM","CPU","MOUSE","MONITOR"]
+var a,b
+document.getElementById("abc1").innerHTML=arr
+function xyz()
+{
+a=prompt("Enter location no to modifie")
+b=prompt("Enter item name")
+arr [a]=b
+document.getElementById("abc2").innerHTML=arr
+}
+</script>
+<button onclick="xyz()">Click here</button>
+</body>
+</html>
