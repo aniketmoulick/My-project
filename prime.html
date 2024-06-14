@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>HELLO JAVASCRIPT</title>
+<script type="text/javascript">
+function hello()
+{
+var b=1
+var a=prompt("please input a number")
+for (var c=2;c<=a-1;c++)
+{
+                    var i=a%c
+                    if (i==0)
+
+            {
+                b=0
+                break;
+            }
+}
+if (b==0)
+{
+document.write("The number "+a+" is not prime number");
+}
+else
+{
+document.write("The number "+a +" is prime number");
+}
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="hello()" value="say hello"/>
+</body>
+</html>
