@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>HELLO JAVASCRIPT</title>
+<script type="text/javascript">
+function hello ()
+{
+var a=prompt ("pls input the number")
+var p=a
+var d=0
+while (a>0)
+{
+             var b=a%10
+             var c=1
+             for (var i =1 ; i <=b ; i++)
+              {
+                            c=c*i
+              }
+              d=d+c
+              a=a/10
+              a=parseInt(a)
+
+}
+
+if (d==p)
+{
+document.write("the number "+P+" is krishnamurthy-
+number");
+}
+else
+{
+document.write("the number "+p+" is not a krishnamurthy-
+-number");
+}
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="hello()" value="say hello"/>
+</body>
+</html>
