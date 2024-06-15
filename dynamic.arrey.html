@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+var arr=["ROM","RAM"]
+var a,b,c
+function prev()
+{
+arr.unshift("CPU")
+}
+function next()
+{
+arr.push("HDD")
+}
+function disp()
+{
+a=arr.length-1
+for(var i=0;i<=a;i++)
+{
+document.write(arr[i]+"<br>")
+}
+}
+</script>
+</head>
+<body>
+<button onclick="prev()">PREV</button><br><br>
+<button onclick="next()">NEXT</button><br><br>
+<button onclick="disp()">DISP</button>
+</body>
+</html>
