@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>HELLO JAVASCRIPT</title>
+<script type="text/javascript">
+function hello()
+ {
+var a=prompt ("pls input the number")
+var p=a
+var c=0
+while (a>0)
+{
+            var b=a%10
+             c=c+(b*b*b)
+             a=a/10
+             a=parseInt(a)
+}
+if (c==p)
+{
+document.write("the number "+p +" is armstrong number");
+}
+else
+{
+document.write("the number "+p +" is not a armstrong -
+number");
+}
+}
+</script>
+</head>
+<body>
+<input type="button' onclick="hello()" value="say hello"/>
+</body>
+</html>
