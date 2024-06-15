@@ -1,0 +1,52 @@
+<html>
+<head>
+<script>
+
+Var a ;
+Var b;
+function grade()
+
+{
+          a=document.getelementByld("xyz21").value;
+          if (ParseInt(a)>=90)
+          {
+                               C="A+";
+          }
+          else if (PerseInt(a)>=80)
+         {
+                                    C="A" ;
+         }
+         else if (PerseInt(a)>=70)
+        {
+                                     C="B+";
+        }
+        else if (PerseInt(a)>=60)
+       {
+                                        C="B";
+       }
+       else if (ParseInt(a)>=50)
+       {
+                                          C="C";
+       }
+       else if (ParseInt(a)>=40)
+       {
+                                         C="D";
+       }
+      else
+       {
+                                      C="FAIL";
+       }
+
+abc.value=C;
+}
+</script>
+</head>
+<body>
+Enter the per% of marks
+<input type="text" id="xyz"><br><br>
+GRADE
+<input type="text"id="abc"><br><br>
+<button onclick="grade()">Click Here to display Grade
+</button><br>
+</body>
+</html>
