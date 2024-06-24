@@ -1,0 +1,13 @@
+// Create an object
+const person = {
+  firstName : "John",
+  lastName : "Doe",
+  age : 50 , eyeColor : "blue"
+
+}
+
+// Create a copy
+const x = person;
+
+// change Age in both 
+x.age = 10;
